@@ -1,0 +1,57 @@
+/* AddingActivityComponent.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.adding-activity-component {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: #8C7599 solid 2px;
+
+
+}
+.adding-activity-component-input{
+    width: 100%;
+    border: 2px solid #5D1049;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    transition: all 0.3s ease;
+}
+.adding-activity-component-buttons{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+ .add-activity-button, .clear-activity-button {
+    border: 2px solid #5D1049;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.add-activity-button, .clear-activity-button {
+    background-color: #B0A8B9;
+    color: white;
+    cursor: pointer;
+}
+
+.add-activity-button:hover, .clear-activity-button:hover {
+    background-color: #8C7599;
+}
+.icon-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+    color: #5D1049;
+    cursor: pointer;
+}
+
